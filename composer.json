@@ -1,0 +1,21 @@
+{
+    "name": "julius/irrenhausverwaltung",
+    "description": "Irrenhausverwaltung is a private tool collection.",
+    "type": "web-application",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Julius Derigs",
+            "email": "julius.derigs@julius-derigs.de"
+        }
+    ],
+    "require": {
+        "php": "^8.3",
+        "ext-pdo": "*",
+        "symfony/yaml": "^7.3"
+    }
+,
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+    }
+}
