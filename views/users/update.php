@@ -48,11 +48,11 @@
 
     <div class="input-wrapper">
         <button type="submit" class="btn btn-blue">
-            <?= esc(LANG->actions->save) ?>
+            <i class="fa-solid fa-check"></i>
         </button>
 
         <a href="<?= base_url('users') ?>" class="btn btn-red">
-            <?= esc(LANG->actions->cancel) ?>
+            <i class="fa-solid fa-xmark"></i>
         </a>
     </div>
 </form>
