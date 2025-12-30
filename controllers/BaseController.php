@@ -27,11 +27,4 @@ class BaseController {
         $this->request = new Request();
         $this->view = new View();
     }
-
-    /**
-     * @return void
-     */
-    public function welcome() :void {
-        $this->view->render('welcome');
-    }
 }

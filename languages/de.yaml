@@ -1,0 +1,29 @@
+project: 'Irrenhausverwaltung'
+actions:
+  save: 'Speichern'
+  cancel: 'Abbrechen'
+  search: 'Suchen'
+  delete: 'Löschen'
+  edit: 'Bearbeiten'
+  back: 'Zurück'
+  login: 'Anmelden'
+navigation:
+  users: 'Benutzer'
+  profile: 'Profil'
+  logout: 'Abmelden'
+messages:
+  success:
+    save: 'Erfolgreich gespeichert'
+  error:
+    save: 'Fehler beim Speichern'
+users:
+  titles:
+    index: 'Benutzer'
+    create: 'Benutzer anlegen'
+    show: 'Benutzer anzeigen'
+    edit: 'Benutzer bearbeiten'
+  attributes:
+    first_name: 'Vorname'
+    last_name: 'Nachname'
+    email: 'E-Mail'
+    password: 'Passwort'
