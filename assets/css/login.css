@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import 'variables.css';
+@import 'buttons.css';
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+body {
+    font: 400 normal 18px 'Rubik', sans-serif;
+    background-color: var(--dark-gray);
+    color: var(--white);
+}
+
+main {
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.login-container {
+    border-radius: 5px;
+    width: 100%;
+}
+
+.title {
+    color: var(--light-blue);
+    margin: 0 0 25px 0;
+    text-align: center;
+}
+
+.default-form {
+    width: 100%;
+}
+
+.default-form .input-wrapper {
+    margin: 0 0 10px 0;
+}
+
+.default-form .input-wrapper label {
+    margin: 0 0 5px 0;
+    display: block;
+}
+
+.default-form .input-wrapper label .required {
+    color: var(--dark-red);
+}
+
+.default-form .input-wrapper input,
+.default-form .input-wrapper textarea,
+.default-form .input-wrapper select {
+    font: 400 normal 18px 'Rubik', sans-serif;
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    width: 100%;
+}
+
+.default-form .input-wrapper input:disabled,
+.default-form .input-wrapper textarea:disabled,
+.default-form .input-wrapper select:disabled {
+    background-color: var(--gray);
+    color: var(--black);
+}

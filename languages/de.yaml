@@ -14,8 +14,13 @@ navigation:
 messages:
   success:
     save: 'Erfolgreich gespeichert'
+    login: 'Erfolgreich angemeldet'
   error:
     save: 'Fehler beim Speichern'
+    login: 'Fehler beim Anmelden'
+pages:
+  titles:
+    login: 'Anmelden'
 users:
   titles:
     index: 'Benutzer'

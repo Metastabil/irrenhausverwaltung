@@ -5,7 +5,11 @@
  * @version 1.0.0
  */
 
-$routes[] = ['BaseController', 'welcome'];
+$routes[] = ['Pages', 'login'];
+
+// Pages
+$routes['login'] = ['Pages', 'login'];
+$routes['logout'] = ['Pages', 'logout'];
 
 // Users
 $routes['users'] = ['Users', 'index'];
